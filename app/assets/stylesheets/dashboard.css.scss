@@ -1,0 +1,15 @@
+// Place all the styles related to the Dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#sign_in_or_signup {
+  #sign_in {
+    float: left;
+    width: 300px;
+  }
+
+  #signup {
+    margin-left: 320px;
+    width: 300px;
+  }
+}

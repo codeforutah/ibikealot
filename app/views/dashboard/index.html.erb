@@ -1,0 +1,8 @@
+<h1>Dashboard</h1>
+
+<h2>Log Your Ride</h2>
+
+<%= form_for @distance do |f| %>
+  <p><%= f.text_field :distance %> miles</p>
+  <p><%= f.submit %></p>
+<% end %>
